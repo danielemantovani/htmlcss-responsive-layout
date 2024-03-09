@@ -229,7 +229,7 @@ header{
     }
 }
 
-/* SEZIONE TESTIMONIALS */
+/* TESTIMONIALS SECTION */
 
 .testimonials-title{
     font-size: 2rem;
@@ -246,6 +246,7 @@ header{
     height: 180px;
     border-radius: 50%;
     text-align: center;
+    object-fit: cover;
 }
 
 .card-testimonial p{
@@ -256,7 +257,7 @@ header{
     .card-testimonial{
         display: flex;
         align-items: center;
-        
+        width: 100%;
     }
 
     .testimonial-description{
@@ -294,7 +295,7 @@ header{
     }
 
     .b-card{
-        width: 40%;
+        width: 49%;
     }
 }
 
@@ -304,4 +305,39 @@ header{
     }
 }
 
+/* ABOUT US SECTION */
 
+.img-about{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.find-me-btn{
+    background-color:rgb(151 146 228);
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+.fa-linkedin{
+    color: white;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:768px) {
+    .about-us{
+        display: flex;
+    }
+
+    .about-us-text{
+        margin-right: 30px;
+        width: 50%;
+    }
+
+    .about-us-img{
+        width: 30%;
+    }
+
+}
