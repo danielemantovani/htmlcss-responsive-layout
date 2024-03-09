@@ -197,7 +197,7 @@ header{
         width: 63%;
         display: flex;
     }
-    
+
     .clean-card{
         height: 380px;
     }
@@ -216,11 +216,15 @@ header{
 
 .section-develop{
     background-color: rgb(151 146 228);
+    padding: 100px 0;
 }
 
 .develop-app{
     background-color: white;
-    margin-bottom: 100px;
+}
+
+.develop-app-text{
+    font-style: italic
 }
 
 .down{
@@ -250,6 +254,10 @@ header{
 
 /* TESTIMONIALS SECTION */
 
+.testimonial-section{
+    margin-top: 50px;
+}
+
 .testimonials-title{
     font-size: 2rem;
 }
@@ -264,19 +272,13 @@ header{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    text-align: center;
     object-fit: cover;
-}
-
-.card-testimonial p{
-    color:white
 }
 
 @media screen and (min-width: 768px) {
     .card-testimonial{
         display: flex;
         align-items: center;
-        width: 100%;
     }
 
     .testimonial-description{
@@ -284,7 +286,6 @@ header{
         margin-left: 10px;
     }
 }
-
 
 /* BENEFITS SECTION */
 
@@ -326,6 +327,14 @@ header{
 
 /* ABOUT US SECTION */
 
+.about-us{
+    margin-top: 100px;
+}
+
+/* .about-us-img{
+    position: relative;
+} */
+
 .img-about{
     width: 180px;
     height: 180px;
@@ -344,15 +353,23 @@ header{
     margin-right: 10px;
 }
 
+.apici{
+    font-size: 4rem;
+    color:rgb(151 146 228);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 @media screen and (min-width:768px) {
     .about-us{
         display: flex;
+        justify-content: space-between;
     }
 
     .about-us-text{
         margin-right: 30px;
-        width: 50%;
+        width: 60%;
     }
 
     .about-us-img{
@@ -364,6 +381,11 @@ header{
 
 .cta-section{
     background-color:rgb(151 146 228);
+    padding: 80px 0;
+}
+
+.cta-container{
+    width: 40%;
 }
 
 .cta-section h5{
@@ -386,12 +408,21 @@ header{
 }
 
 .privacy{
-    text-decoration: underline;
     font-size: .7rem;
+    text-decoration: underline;
 }
 
 /* FOOTER */
 
 footer{
     background-color: rgb(51,51, 51);
+}
+
+.footer-container{
+    width: 30%;
+}
+
+footer span{
+    color:rgb(151 146 228);
+    text-decoration: underline;
 }
