@@ -156,7 +156,6 @@ header{
 .phone-img{
     display: block;
     max-width: 300px;
-    /* margin-top: 100px; */
 }
 
 .card-app{
@@ -269,9 +268,10 @@ header{
 }
 
 .card-testimonial img{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    width: 70%;
+    margin: auto;
+    aspect-ratio: 1;
+    border-radius:50%;
     object-fit: cover;
 }
 
@@ -354,13 +354,13 @@ header{
     margin-right: 10px;
 }
 
-.apici{
+/* .apici{
     font-size: 4rem;
     color:rgb(151 146 228);
     position: absolute;
     right: 0;
     top: 0;
-}
+} */
 
 @media screen and (min-width:768px) {
     .about-us{
